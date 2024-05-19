@@ -62,5 +62,22 @@ Step 3. Open Microsoft Remote Desktop (If on Mac Desktop)
   - Click Add PC and enter your VMs public IP (Wait until the VM finishes deploying) 
   - Enter the username and password you put in for your VM
 
-Step 4. Open This:
-](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) 
+
+
+Step 4: Install/Enable IIS in Windows with CGI and Common HTTP features 
+- right click on the "start" icon, Click run, and enter "control"
+- Click on "programs" and then "turn windows features on or off"
+- clikc on internet information services -> World Wide Web Services -> Application Development Features ->
+[X] CGI
+[X] Common HTTP Features
+- Internet Information Services -> Web Management Tools -> IIS Management Console
+	[X] IIS Management Console
+- Click Ok
+
+
+  
+Step 5. Open the Installation files page here:
+(https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) 
+- Download and isntall PHP Manager for IIS
+- Download and install Rewrite Module
+- Download and install PHP 7.3.8
