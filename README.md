@@ -37,13 +37,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 Step 1. Create a Resource Group in Azure 
   
-</p>
-<br />
+<img width="1078" alt="Screen Shot 2024-05-19 at 9 11 36 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/472a4d2f-9633-4839-bff1-92fe174f459e">
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 Step 2. Create a Windows 10 pro Virtual Machine (VM) with 2-4 Virtual CPUs
   -  Name: VM-osTicket
   - Username: labuser (or what ever you decide to choose for a username)
