@@ -62,5 +62,5 @@ Step 3. Open Microsoft Remote Desktop (If on Mac Desktop)
   - Click Add PC and enter your VMs public IP (Wait until the VM finishes deploying) 
   - Enter the username and password you put in for your VM
 
-</p>
-<br />
+Step 4. Open This:
+](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) 
