@@ -93,6 +93,44 @@ Step 6. Open IIS as an Admin
 - Click on PHP Manager -> Register new PHP version -> "..." -> this PC -> PHP -> php-cgi -> open
 - Go back to the home page and click "Restart"
 
+<img width="823" alt="Screen Shot 2024-05-19 at 10 32 17 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/89c39bc9-7e69-4187-967f-1a15fd8ef549">
+
+Step 7. Download and Install osTicket v1.15.8
+- When downloaded, open the osTicket file
+- once inside the folder, open another file explorer and go to This PC -> Windows (C:) -> inetpub -> wwwroot
+- On the wwwroot folder, drag the "upload" folder to the "wwwroot" folder
+- Rename the "upload" folder to "osTicket
 
 
-Step 6.
+<img width="1533" alt="Screen Shot 2024-05-19 at 10 37 17 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/90384f4f-d932-4134-873b-72fac36da6c9">
+
+Step 8. Go back to IIS Manager
+- Click restart
+- Go to sites -> Default -> osTicket
+- On the right, click "Browse *:80"
+- When click on that, you should see it opening the webpage shown on the image.
+
+Note: if you dont see this and instead an error page, something was done wrong. 
+
+<img width="909" alt="Screen Shot 2024-05-19 at 10 44 42 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/55ab8449-d9e2-4d8f-9a8a-d026fe10278d">
+
+Step 9. Some extensions are not enabled. 
+- Go back to IIS -> sites -> Default -> osTicket
+- Double click PHP Manager
+- Click "Enable or Disable an extension"
+   Enable: php_imap.dll
+   Enable: php_intl.dll
+   Enable: php_opcache.dll
+  
+
+<img width="1683" alt="Screen Shot 2024-05-19 at 10 45 01 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/7153ee4b-9d13-4e17-ab82-b3af48a36d0f">
+  
+Refresh the osTicket site in your browser, observe the changes
+
+
+
+
+
+
+Step 10. 
+  
