@@ -33,10 +33,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+<img width="1767" alt="Screen Shot 2024-05-19 at 9 08 59 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/35d881bb-b0d7-4969-a021-d7b583ec2343">
+
 Step 1. Create a Resource Group in Azure 
   
 </p>
