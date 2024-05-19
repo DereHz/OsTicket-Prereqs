@@ -75,3 +75,15 @@ Step 5. Open the Installation files page here:
 - Download and isntall PHP Manager for IIS
 - Download and install Rewrite Module
 - Download and install PHP 7.3.8
+- Download and install VC_redist.x86.exe.
+- Download and install MySQL 5.5.62
+  When MySQL downloads: Typical setup -> Launch Configuration Wizard(after install) -> Password1
+  
+Note: if you dont see anything happen immediately after clicking download, give it a few seconds. 
+
+
+<img width="1332" alt="Screen Shot 2024-05-19 at 10 04 33 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/8a72fa53-8fbf-4840-bdc3-1ed62d68511f">
+
+When PHP 7.3.8 is downloaded Create a folder "PHP" on Windows (C:). right click the PHP 7.3.8 file -> extract all -> browse -> This PC -> Windows (C:) -> PHP -> Select Folder -> Extract
+
+
