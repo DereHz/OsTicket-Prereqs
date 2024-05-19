@@ -67,8 +67,7 @@ Step 4: Install/Enable IIS in Windows with CGI and Common HTTP features
 	[X] IIS Management Console
 - Click Ok
 
-
-<img width="1214" alt="Screen Shot 2024-05-19 at 9 36 44 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/1c294730-5a07-4251-8d0b-47b094ea45c7">
+<img width="1532" alt="Screen Shot 2024-05-19 at 10 11 10 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/f752a179-4c8d-4696-9977-e19c824f6054">
   
 Step 5. Open the Installation files page here:
 (https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) 
@@ -84,6 +83,6 @@ Note: if you dont see anything happen immediately after clicking download, give 
 
 <img width="1332" alt="Screen Shot 2024-05-19 at 10 04 33 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/8a72fa53-8fbf-4840-bdc3-1ed62d68511f">
 
-When PHP 7.3.8 is downloaded Create a folder "PHP" on Windows (C:). right click the PHP 7.3.8 file -> extract all -> browse -> This PC -> Windows (C:) -> PHP -> Select Folder -> Extract
+When PHP 7.3.8 is finished downloading, Create a folder "PHP" on Windows (C:). right click the PHP 7.3.8 file -> extract all -> browse -> This PC -> Windows (C:) -> PHP -> Select Folder -> Extract
 
 
