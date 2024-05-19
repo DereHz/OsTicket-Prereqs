@@ -130,7 +130,45 @@ Refresh the osTicket site in your browser, observe the changes
 
 
 
+<img width="798" alt="Screen Shot 2024-05-19 at 10 50 39 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/09c14a6d-8af3-48a6-9e39-2939718dd12b">
+
+Step 10. Rename: ost-config.php
+ - Go to the wwwroot folder
+ - click on osTicket -> include
+ - look for the file "ost-sampleconfig.php and rename it to "ost-config.php"
+ - Right click ost-config.php -> Properties -> Security -> Advance -> Disable inheritance -> Remove all -> Add -> Select Principle -> type "Everyone" -> Ok -> click "Full Controll" -> ok -> Apply and then OK
 
 
-Step 10. 
-  
+<img width="693" alt="Screen Shot 2024-05-19 at 11 05 09 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/1b9810b8-dd89-4864-ade0-7174ee03ab63">
+
+Step 11. Download and Install HeidiSQL
+ - Open HeidiSQL
+ - Create a new session, root/Password1
+ - Connect to the session
+ - Create a database called "osTicket"
+
+
+<img width="1685" alt="Screen Shot 2024-05-19 at 11 07 01 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/20749194-2394-4e34-85da-8c9b8f0cbee7">
+ 
+Step 11. Continue Setting up Osticket in the browser
+ - Name HelpDesk
+ - Derek@helper.com (receives email from customers)
+ - MySQL Database: osTicket
+ - MySQL Username: root
+ - MySQL Password: Password1
+ - Click "Install Now!"
+
+<img width="1684" alt="Screen Shot 2024-05-19 at 11 11 41 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/8cef074d-347a-4aa8-9964-755133a3ba63">
+
+"Congratulations"
+
+
+
+Clean up 
+ - Delete: C:\inetpub\wwwroot\osTicket\setup
+ - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+
+
+
+
