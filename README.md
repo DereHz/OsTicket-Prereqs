@@ -60,6 +60,9 @@ Step 2. Create a Windows 10 pro Virtual Machine (VM) with 2-4 Virtual CPUs
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 3. Open Microsoft Remote Desktop (If on Mac Desktop)
+  - Click Add PC and enter your VMs public IP (Wait until the VM finishes deploying) 
+  - Enter the username and password you put in for your VM
+
 </p>
 <br />
