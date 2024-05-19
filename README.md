@@ -37,10 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a Virtual Machine in Azure 
-  - Crete a Resource Group
-  - Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs
-  - When creating the VM, create a new Virtual Network (Vnet)
+Step 1. Create a Resource Group in Azure 
   
 </p>
 <br />
@@ -49,7 +46,13 @@ Create a Virtual Machine in Azure
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 2. Create a Windows 10 pro Virtual Machine (VM) with 2-4 Virtual CPUs
+  -  Name: VM-osTicket
+  - Username: labuser (or what ever you decide to choose for a username)
+  - Password: osTicketPassword1!(example)
+  - When creating the VM, Create a new Virtual Network (Vnet) 
+  - Click Review+Create
+  
 </p>
 <br />
 
