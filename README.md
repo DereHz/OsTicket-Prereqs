@@ -46,18 +46,13 @@ Step 2. Create a Windows 10 pro Virtual Machine (VM) with 2-4 Virtual CPUs
   - When creating the VM, Create a new Virtual Network (Vnet) 
   - Click Review+Create
   
-</p>
-<br />
+<img width="1849" alt="Screen Shot 2024-05-19 at 9 16 44 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/dc073a69-65c0-41f4-87ab-fdfb053814b6">
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 Step 3. Open Microsoft Remote Desktop (If on Mac Desktop)
   - Click Add PC and enter your VMs public IP (Wait until the VM finishes deploying) 
   - Enter the username and password you put in for your VM
 
-
+<img width="1214" alt="Screen Shot 2024-05-19 at 9 36 44 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/ca4884b9-8dfb-4198-a555-f2368427475d">
 
 Step 4: Install/Enable IIS in Windows with CGI and Common HTTP features 
 - right click on the "start" icon, Click run, and enter "control"
@@ -69,7 +64,7 @@ Step 4: Install/Enable IIS in Windows with CGI and Common HTTP features
 	[X] IIS Management Console
 - Click Ok
 
-
+<img width="1214" alt="Screen Shot 2024-05-19 at 9 36 44 AM" src="https://github.com/DereHz/osTicket-prereqs/assets/169094076/1c294730-5a07-4251-8d0b-47b094ea45c7">
   
 Step 5. Open the Installation files page here:
 (https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) 
